@@ -1,1 +1,1 @@
-# spade-newsroom-cms
+# spade-newsroom
