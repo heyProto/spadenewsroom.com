@@ -650,7 +650,7 @@ var step = 1,x1,y1,h1,h2,
 			collapsable_filter.appendChild(filters);
 		$.ajax({
 			type: "GET",
-			url: "http://cms.spadenewsroom.com/reference_list",
+			url: "https://spadecms.pro.to/reference_list",
 			headers: {
 				'Content-Type': 'application/json'
 			},
@@ -1078,7 +1078,7 @@ var step = 1,x1,y1,h1,h2,
 	function showDescription(id) {
 		$.ajax({
 			type: "GET",
-			url: "http://cms.spadenewsroom.com/descriptions/"+id,
+			url: "https://spadecms.pro.to/descriptions/"+id,
 			headers: {
 				'Content-Type': 'application/json'
 			},
@@ -1205,7 +1205,7 @@ var step = 1,x1,y1,h1,h2,
 		}
 		$.ajax({
 			type: "POST",
-			url: "http://cms.spadenewsroom.com/filters/query",
+			url: "https://spadecms.pro.to/filters/query",
 			headers: {
 				'Content-Type': 'application/json'
 			},
@@ -1268,7 +1268,7 @@ var step = 1,x1,y1,h1,h2,
 		}
 		$.ajax({
 			type: "POST",
-			url: "http://cms.spadenewsroom.com/filters/query",
+			url: "https://spadecms.pro.to/filters/query",
 			headers: {
 				'Content-Type': 'application/json'
 			},
